@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Abdennour Aziz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">ABDENNOUR<span>.</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="work.html" class="nav-link">Work</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </div>
+    <div class="nav-burger" id="burger">
+      <span></span><span></span>
+    </div>
+  </nav>
+
+  <section class="contact-hero">
+    <div class="contact-hero-text">
+      <p class="page-hero-tag reveal">Get In Touch</p>
+      <h1 class="page-hero-title reveal">Let's create<br><em>something</em><br>remarkable.</h1>
+      <p class="page-hero-sub reveal">Available for freelance projects, collaborations, and full-time opportunities.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <!-- FORM SIDE -->
+      <div class="contact-form-wrap reveal">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Sarah Benali" required>
+            <div class="input-line"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <div class="input-line"></div>
+          </div>
+          <div class="form-group">
+            <label for="project">Project Type</label>
+            <select id="project" name="project">
+              <option value="">Select a category...</option>
+              <option>Brand Identity</option>
+              <option>Editorial Design</option>
+              <option>Poster & Print</option>
+              <option>Packaging Design</option>
+              <option>Other</option>
+            </select>
+            <div class="input-line"></div>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell me about your project</label>
+            <textarea id="message" name="message" rows="5" placeholder="Brief description, timeline, budget..."></textarea>
+            <div class="input-line"></div>
+          </div>
+          <button type="submit" class="btn-primary submit-btn">
+            <span class="btn-text">Send via Gmail</span>
+            <span class="btn-arrow">→</span>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <span>✓</span> Message sent! I'll get back to you within 48 hours.
+          </div>
+        </form>
+      </div>
+
+      <!-- INFO SIDE -->
+      <div class="contact-info reveal">
+        <div class="info-block">
+          <p class="info-label">Location</p>
+          <p class="info-val">Marrakesh, Morocco 🇲🇦</p>
+        </div>
+        <div class="info-block">
+          <p class="info-label">Availability</p>
+          <p class="info-val">Open to projects <span class="dot-green"></span></p>
+        </div>
+        <div class="info-block">
+          <p class="info-label">Email</p>
+          <p class="info-val"><a href="mailto:hello@abdennouraziz.com">hello@abdennouraziz.com</a></p>
+        </div>
+        <div class="info-block">
+          <p class="info-label">Response Time</p>
+          <p class="info-val">Within 48 hours</p>
+        </div>
+        <div class="info-socials">
+          <a href="#" class="social-link">Behance</a>
+          <a href="#" class="social-link">Dribbble</a>
+          <a href="#" class="social-link">Instagram</a>
+          <a href="#" class="social-link">LinkedIn</a>
+        </div>
+        <div class="info-faq">
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>What's your typical process?</span><span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">Discovery → Concept → Refinement → Delivery. I involve you at every stage so there are no surprises — only great work.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>Do you work remotely?</span><span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">Yes, fully remote and comfortable with async collaboration across time zones.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              <span>What file formats do you deliver?</span><span class="faq-icon">+</span>
+            </div>
+            <div class="faq-a">All source files (Ai, Ps, Id), plus print-ready PDFs, web-optimized PNGs/SVGs, and full brand packages as needed.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BIG CTA -->
+  <section class="cta-band reveal">
+    <div class="cta-band-inner">
+      <p>Have a project in mind?</p>
+      <h2>Let's <em>talk design.</em></h2>
+      <a href="mailto:hello@abdennouraziz.com" class="btn-primary">Email Directly →</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">ABDENNOUR<span>.</span></div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Abdennour Aziz — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

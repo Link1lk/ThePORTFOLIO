@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdennour's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">ABDENNOUR<span>.</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="work.html" class="nav-link active">Work</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-burger" id="burger">
+      <span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <p class="page-hero-tag reveal">Portfolio</p>
+    <h1 class="page-hero-title reveal">Selected <em>Work</em></h1>
+    <p class="page-hero-sub reveal">Hover, explore, feel — every project tells a story.</p>
+  </section>
+
+  <!-- FILTER TABS -->
+  <div class="filter-bar reveal">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="branding">Branding</button>
+  </div>
+
+  <!-- WORK GRID -->
+  <section class="work-grid-section">
+    <div class="work-grid" id="workGrid">
+
+      <!-- BRANDING -->
+      <div class="work-card reveal" data-cat="branding" id="branding" data-project="zt-delivery">
+        <div class="work-img" style="background-image: url(1778341024851_delivery_cargo_truck.jpg); background-size: cover; background-position: center;">
+          <div class="work-img-overlay">
+            <div class="work-tools"><span>Ai</span><span>Ps</span></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <span class="work-cat">Brand Identity</span>
+          <h3 class="work-title">ZT Delivery</h3>
+          <p>Full brand system for a fast-delivery company — logo, fleet wrap, scooter box, staff uniform, cap, and office signage. Speed made visible.</p>
+        </div>
+      </div>
+
+      <div class="work-card reveal" data-cat="branding" data-project="golden-bite">
+        <div class="work-img" style="background-image: url(1778341420351_Logo-mockup_upscayl_3x_high-fidelity-4x.png); background-size: cover; background-position: center;">
+          <div class="work-img-overlay">
+            <div class="work-tools"><span>Ai</span><span>Ps</span></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <span class="work-cat">Brand Identity</span>
+          <h3 class="work-title">Golden Bite</h3>
+          <p>Complete food brand identity — where street culture meets luxury dining, unified by bold type and a signature gold-black palette.</p>
+        </div>
+      </div>
+
+      <div class="work-card reveal" data-cat="branding" data-project="noctra">
+        <div class="work-img" style="background-image: url(poster-hoodie-fin.jpg); background-size: cover; background-position: center top;">
+          <div class="work-img-overlay">
+            <div class="work-tools"><span>Ai</span><span>Ps</span></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <span class="work-cat">Brand Identity</span>
+          <h3 class="work-title">NOCTRA</h3>
+          <p>Luxury streetwear brand identity — where darkness, mystery, and urban confidence collide into a premium visual language.</p>
+        </div>
+      </div>
+
+      <div class="work-card reveal" data-cat="branding" data-project="noire-cafe">
+        <div class="work-img" style="background-image: url(Sign_Mockup.png); background-size: cover; background-position: center;">
+          <div class="work-img-overlay">
+            <div class="work-tools"><span>Ai</span><span>Ps</span></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <span class="work-cat">Brand Identity</span>
+          <h3 class="work-title">NOIRÉ</h3>
+          <p>Luxury coffee brand identity — matte black, gold script, and tactile elegance across signage, cups, packaging and uniforms.</p>
+        </div>
+      </div>
+
+      <div class="work-card reveal" data-cat="branding" data-project="margosa">
+        <div class="work-img" style="background-image: url(Affiche.png); background-size: cover; background-position: center;">
+          <div class="work-img-overlay">
+            <div class="work-tools"><span>Ai</span><span>Ps</span></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <span class="work-cat">Brand Identity · Packaging</span>
+          <h3 class="work-title">MARGOSA</h3>
+          <p>Branding for a premium anti-dandruff shampoo inspired by natural neem — botanical packaging, custom monogram, and delivery uniform.</p>
+        </div>
+      </div>
+
+      <div class="work-card reveal" data-cat="branding" data-project="moonveil">
+        <div class="work-img" style="background-image: url(affiche-Coco.jpg); background-size: cover; background-position: center top;">
+          <div class="work-img-overlay">
+            <div class="work-tools"><span>Ai</span><span>Ps</span></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <span class="work-cat">Brand Identity · Social Media</span>
+          <h3 class="work-title">MOONVEIL</h3>
+          <p>Full brand identity for a luxury perfumerie — logo, custom bottle visuals, scent campaign posters, brochure, and social media ads across four fragrances.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TOOLS SECTION -->
+  <section class="tools-section section">
+    <p class="section-tag reveal">My Toolkit</p>
+    <h2 class="section-title reveal">Built with <em>precision</em></h2>
+    <div class="tools-grid reveal">
+      <div class="tool-item">
+        <div class="tool-icon ai">Ai</div>
+        <span>Adobe Illustrator</span>
+        <p>Vector graphics, logo design, illustration, brand marks</p>
+      </div>
+      <div class="tool-item">
+        <div class="tool-icon ps">Ps</div>
+        <span>Adobe Photoshop</span>
+        <p>Photo retouching, compositing, texture work, digital art</p>
+      </div>
+      <div class="tool-item">
+        <div class="tool-icon id">Id</div>
+        <span>Adobe InDesign</span>
+        <p>Editorial layouts, books, magazines, multi-page documents</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT POPUP MODAL -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-panel">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-inner">
+
+        <!-- LEFT: main image + side images -->
+        <div class="modal-gallery">
+          <div class="modal-main-img" id="modalMainImg"></div>
+          <div class="modal-thumbs" id="modalThumbs"></div>
+        </div>
+
+        <!-- RIGHT: info -->
+        <div class="modal-info">
+          <span class="modal-cat" id="modalCat"></span>
+          <h2 class="modal-title" id="modalTitle"></h2>
+          <p class="modal-desc" id="modalDesc"></p>
+
+          <div class="modal-details" id="modalDetails"></div>
+
+          <div class="modal-tools-wrap">
+            <p class="modal-tools-label">Tools Used</p>
+            <div class="modal-tools" id="modalTools"></div>
+          </div>
+
+          <a href="contact.html" class="btn-primary modal-cta">Start a Project →</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">ABDENNOUR<span>.</span></div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Abdennour Aziz — All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
