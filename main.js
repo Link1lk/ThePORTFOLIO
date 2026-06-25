@@ -154,12 +154,12 @@ const PROJECTS = {
     ],
     swatches: ['#1A1A1A', '#3CB944', '#FFFFFF', '#2D8A2D'],
     mocks: [
-      { label: 'Cargo Truck Wrap', img: 'images/1778341024851_delivery_cargo_truck.jpg' },
-      { label: 'Scooter Box', img: 'images/1778340995569_ScooterBox.jpg' },
-      { label: 'Office Wall Logo', img: 'images/1778341011176_Logo_in_Conference_Room_Mockup_1.jpg' },
-      { label: 'Staff Polo — Front', img: 'images/1778341018543_Front.png', bg: '#0d0d0d' },
-      { label: 'Staff Polo — Back', img: 'images/1778341018543_Back.png', bg: '#0d0d0d' },
-      { label: 'Branded Cap', img: 'images/1778341004618_CAP2.png', bg: '#0d0d0d' },
+      { label: 'Cargo Truck Wrap', img: '1778341024851_delivery_cargo_truck.jpg' },
+      { label: 'Scooter Box', img: '1778340995569_ScooterBox.jpg' },
+      { label: 'Office Wall Logo', img: '1778341011176_Logo_in_Conference_Room_Mockup_1.jpg' },
+      { label: 'Staff Polo — Front', img: '1778341018543_Front.png', bg: '#0d0d0d' },
+      { label: 'Staff Polo — Back', img: '1778341018543_Back.png', bg: '#0d0d0d' },
+      { label: 'Branded Cap', img: '1778341004618_CAP2.png', bg: '#0d0d0d' },
     ]
   },
   'margosa': {
@@ -175,12 +175,12 @@ const PROJECTS = {
     ],
     swatches: ['#354024', '#689063', '#EFEFE3', '#1a2410'],
     mocks: [
-      { label: 'Product Campaign', img: 'images/Affiche.png' },
-      { label: 'Bottle Packaging', img: 'images/product.png', bg: '#0d0d0d' },
-      { label: 'Logo — Dark', img: 'images/logoblack.png', bg: '#0d0d0d' },
-      { label: 'Logo — Light', img: 'images/logowhite.png', bg: '#0d0d0d' },
-      { label: 'Uniform — Front', img: 'images/front_tcheurtpng.png', bg: '#0d0d0d' },
-      { label: 'Uniform — Back', img: 'images/back_tcheurt.png', bg: '#0d0d0d' },
+      { label: 'Product Campaign', img: 'Affiche.png' },
+      { label: 'Bottle Packaging', img: 'product.png', bg: '#0d0d0d' },
+      { label: 'Logo — Dark', img: 'logoblack.png', bg: '#0d0d0d' },
+      { label: 'Logo — Light', img: 'logowhite.png', bg: '#0d0d0d' },
+      { label: 'Uniform — Front', img: 'front_tcheurtpng.png', bg: '#0d0d0d' },
+      { label: 'Uniform — Back', img: 'back_tcheurt.png', bg: '#0d0d0d' },
     ]
   },
   'moonveil': {
@@ -196,16 +196,16 @@ const PROJECTS = {
     ],
     swatches: ['#5C1A6E', '#9B59B6', '#F5F0FA', '#2A5C2A'],
     mocks: [
-      { label: 'Logo', img: 'images/moonveil-logo.png', bg: '#f5f0fa' },
-      { label: 'Secondary Logo', img: 'images/moonveil-logosec.png', bg: '#f5f0fa' },
-      { label: 'Logo Mockup — Signage', img: 'images/logo-mockup.jpg' },
-      { label: 'Coco Poster', img: 'images/affiche-Coco.jpg' },
-      { label: 'Jasmine Poster', img: 'images/affiche-Jasmine.jpg' },
-      { label: 'OUD Poster', img: 'images/affiche-OUD.jpg' },
-      { label: 'Vanilla Poster', img: 'images/affiche-vanilla.jpg' },
-      { label: 'Brochure Mockup', img: 'images/mockup-brochure.jpg' },
-      { label: 'Instagram Ad', img: 'images/insta.jpg' },
-      { label: 'TikTok Ad', img: 'images/tiktok.jpg' },
+      { label: 'Logo', img: 'moonveil-logo.png', bg: '#f5f0fa' },
+      { label: 'Secondary Logo', img: 'moonveil-logosec.png', bg: '#f5f0fa' },
+      { label: 'Logo Mockup — Signage', img: 'logo-mockup.jpg' },
+      { label: 'Coco Poster', img: 'affiche-Coco.jpg' },
+      { label: 'Jasmine Poster', img: 'affiche-Jasmine.jpg' },
+      { label: 'OUD Poster', img: 'affiche-OUD.jpg' },
+      { label: 'Vanilla Poster', img: 'affiche-vanilla.jpg' },
+      { label: 'Brochure Mockup', img: 'mockup-brochure.jpg' },
+      { label: 'Instagram Ad', img: 'insta.jpg' },
+      { label: 'TikTok Ad', img: 'tiktok.jpg' },
     ]
   },
   'noire-cafe': {
@@ -221,12 +221,12 @@ const PROJECTS = {
     ],
     swatches: ['#0D0D0D', '#C9A84C', '#F5EDD6', '#8B6914'],
     mocks: [
-      { label: 'Store Signage', img: 'images/Sign_Mockup.png', bg: '#f0ece4' },
-      { label: 'Cup — Front', img: 'images/front-coffee.png', bg: '#c9b99a' },
-      { label: 'Cup — Back', img: 'images/Back-coffee.png', bg: '#c9b99a' },
-      { label: 'Take Away Carrier', img: 'images/Take-Away-Paper-Cup.jpg' },
-      { label: 'Staff Polo — Front', img: 'images/Gemini_Generated_Image_kbt50vkbt50vkbt5.png', bg: '#0d0d0d' },
-      { label: 'Staff Polo — Back', img: 'images/Gemini_Generated_Image_ai9nlqai9nlqai9n.png', bg: '#0d0d0d' },
+      { label: 'Store Signage', img: 'Sign_Mockup.png', bg: '#f0ece4' },
+      { label: 'Cup — Front', img: 'front-coffee.png', bg: '#c9b99a' },
+      { label: 'Cup — Back', img: 'Back-coffee.png', bg: '#c9b99a' },
+      { label: 'Take Away Carrier', img: 'Take-Away-Paper-Cup.jpg' },
+      { label: 'Staff Polo — Front', img: 'Gemini_Generated_Image_kbt50vkbt50vkbt5.png', bg: '#0d0d0d' },
+      { label: 'Staff Polo — Back', img: 'Gemini_Generated_Image_ai9nlqai9nlqai9n.png', bg: '#0d0d0d' },
     ]
   },
   'golden-bite': {
@@ -241,12 +241,12 @@ const PROJECTS = {
     ],
     swatches: ['#0D0D0D', '#C9A84C', '#F5F0E8', '#E8A020'],
     mocks: [
-      { label: 'Logo Signage Mockup', img: 'images/1778341420351_Logo-mockup_upscayl_3x_high-fidelity-4x.png' },
-      { label: 'Paper Bag Mockup', img: 'images/Paper-bag.jpg' },
-      { label: 'Logo Mark', img: 'images/BITE-logo.png', bg: '#F5F0E8' },
-      { label: 'Food Packaging', img: 'images/Food-mockup.jpg' },
-      { label: 'Food Truck', img: 'images/Food-truck_mockup.png', bg: '#1a1a1a' },
-      { label: 'Panneau Publicitaire', img: 'images/1778341609889_panneaux.jpg' },
+      { label: 'Logo Signage Mockup', img: '1778341420351_Logo-mockup_upscayl_3x_high-fidelity-4x.png' },
+      { label: 'Paper Bag Mockup', img: 'Paper-bag.jpg' },
+      { label: 'Logo Mark', img: 'BITE-logo.png', bg: '#F5F0E8' },
+      { label: 'Food Packaging', img: 'Food-mockup.jpg' },
+      { label: 'Food Truck', img: 'Food-truck_mockup.png', bg: '#1a1a1a' },
+      { label: 'Panneau Publicitaire', img: '1778341609889_panneaux.jpg' },
     ]
   },
   'noctra': {
@@ -262,12 +262,12 @@ const PROJECTS = {
     ],
     swatches: ['#0D0D0D', '#FEFBE3', '#7A7A7A', '#39FF14'],
     mocks: [
-      { label: 'Street Poster Campaign', img: 'images/01-Free-Vibrant-Three-Street-Poster-Mockup.jpg' },
-      { label: 'Hoodie Editorial', img: 'images/poster-hoodie-fin.jpg' },
-      { label: 'Hoodie Mockup', img: 'images/Hoodie.jpg' },
-      { label: 'Brand Identity Sheet', img: 'images/IDENTITY-PROJET.jpg' },
-      { label: 'Logo Mark', img: 'images/logo.png', bg: '#0d0d0d' },
-      { label: 'Shopping Bag', img: 'images/Sans_titre_-_3-02.png', bg: '#f5f0e8' },
+      { label: 'Street Poster Campaign', img: '01-Free-Vibrant-Three-Street-Poster-Mockup.jpg' },
+      { label: 'Hoodie Editorial', img: 'poster-hoodie-fin.jpg' },
+      { label: 'Hoodie Mockup', img: 'Hoodie.jpg' },
+      { label: 'Brand Identity Sheet', img: 'IDENTITY-PROJET.jpg' },
+      { label: 'Logo Mark', img: 'logo.png', bg: '#0d0d0d' },
+      { label: 'Shopping Bag', img: 'Sans_titre_-_3-02.png', bg: '#f5f0e8' },
     ]
   },
   'noir-collective': {
